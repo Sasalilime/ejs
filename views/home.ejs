@@ -1,8 +1,10 @@
 <h1>Hello Les gens</h1>
 
-<div><%= users.forEach(user => {
-        user.name;
-        console.log(user.name);
-    }) %></div>
+    <% users.map(user =>{ %>
+<div> <%=user.name %> : <%=user.age %> ans</div>
+   <% })%>
 
+<% users.forEach(user =>{ %>
+<div> <%=user.prenom %> : <%=user.age %> ans</div>
+<% })%>
 <div><%= message %></div>
