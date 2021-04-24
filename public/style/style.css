@@ -1,4 +1,12 @@
-.bg{
+html {
+    font-family: "Product Sans", Serif;
+}
+
+.bg {
     background-color: darksalmon;
+}
+
+.container {
+    margin: 10px;
 }
 
